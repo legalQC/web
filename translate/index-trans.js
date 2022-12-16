@@ -60,7 +60,7 @@ var arrLang = {
     "T3": "for everyone",
     "T4": "How it works",
     "T5": "ONLINE LEGAL SERVICES",
-    "T6": "LegalQC offers exclusively online legal services with advantageous rates. With innovative technologies, our clients save time and money and have better access to justice. We offer through our portal a wide range of legal services in family law, corporate and business law, civil law, immigration law, and preparation of files for the Court of Small Claims etc. All services are offered by a lawyer member of the Quebec Bar (Canada). LegalQC is dedicated to offering online legal solutions with affordable rates for everyone",
+    "T6": "LegalQC offers exclusively online legal services with advantageous rates. With innovative technologies, our clients save time and money and have better access to justice. We offer through our portal a wide range of legal services in family law, corporate and business law, civil law, immigration law, and preparation of files for the Court of Small Claims etc. All services are offered by a lawyer member of the Quebec Bar (Canada). LegalQC is dedicated to offering online legal solutions with affordable rates for everyone.",
     "T7": "Family Law",
     "DISPO": " Check available services",
     "T8": "Corporate & Business Law",
