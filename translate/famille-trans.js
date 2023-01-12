@@ -70,10 +70,10 @@ if(usrLang) {
 
 // handling request for appropriate form based on user language
 if (lang=== "fr"){
-  go('https://form.jotform.com/223497824261259?language=fr-CA&dropdown=hidden') ;
+  go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
 
 } else if (lang=== "en"){
-  go('https://form.jotform.com/223497824261259?language=en-CA&dropdown=hidden') ;
+  go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
 }  
 
 // end of handling above request
@@ -94,10 +94,10 @@ console.log(lang);
 
     //  // handling request for proposal form based on selected language
     if (lang=== "fr"){
-      go('https://form.jotform.com/223497824261259?language=fr-CA&dropdown=hidden') ;
+      go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
     
     } else if (lang=== "en"){
-      go('https://form.jotform.com/223497824261259?language=en-CA&dropdown=hidden') ;
+      go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
     }  
       // end here - handling selected language
      
