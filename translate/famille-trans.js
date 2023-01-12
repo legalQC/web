@@ -3,9 +3,9 @@ var arrLang = {
 
     // head
     "TITLE": "Droit de la famille en ligne de LégalQC",
-    "KEYWORDS": "droit de la famille en ligne, divorce amiable, séparation à l'amiable pour couple marié et non-marié, annulation de la pension alimentaire, service d'aide à l'homologation, contrat de vie commune",
+    "KEYWORDS": "droit de la famille en ligne, divorce amiable, séparation à l'amiable pour couple marié et non-marié, garde d'enfants, annulation de la pension alimentaire, service d'aide à l'homologation, contrat de vie commune",
 
-    "DESCRIPTION": "LégalQC offre des services en droit de la famille en ligne avec des tarifs avantageux. Les services juridiques disponibles en droit de la famille en ligne sont: divorce amiable, séparation à l'amiable pour couple marié et non-marié, annulation de la pension alimentaire, service d'aide à l'homologation, contrat de vie commune. Les services juridiques en ligne en droit de la famille de LégalQC permettent aux clients de gagner du temps et de l'argent ainsi qu'une meilleure accès à la justice grâces à des technologies innovantes. LégalQC est dédié à offrir des services juridiques en droit de la famille en ligne avec des tarifs abordables et à la portée de tous.",
+    "DESCRIPTION": "LégalQC offre des services en droit de la famille en ligne avec des tarifs avantageux. Les services juridiques disponibles en droit de la famille en ligne sont: divorce amiable, séparation à l'amiable pour couple marié et non-marié, garde d'enfants, annulation de la pension alimentaire, service d'aide à l'homologation, contrat de vie commune. Les services juridiques en ligne en droit de la famille de LégalQC permettent aux clients de gagner du temps et de l'argent ainsi qu'une meilleure accès à la justice grâces à des technologies innovantes. LégalQC est dédié à offrir des services juridiques en droit de la famille en ligne avec des tarifs abordables et à la portée de tous.",
     
 
     // body
@@ -28,9 +28,9 @@ var arrLang = {
 
     // head
     "TITLE": "LegalQC Online Family Law",
-    "KEYWORDS": "online family law, joint divorce, joint separation for married and unmarried couple, child support cancellation, homologation assistance service, cohabitation contract",
+    "KEYWORDS": "online family law, joint divorce, joint separation for married and unmarried couple, child custody, child support cancellation, homologation assistance service, cohabitation contract",
 
-    "DESCRIPTION": "LegalQC offers online family law services with affordable rates. Legal services available for online family law are: joint divorce, joint separation for married and unmarried couple, child support cancellation, homologation assistance service, cohabitation contract. LegalQC's online family law services allow clients to save time and money and to have better access to justice through innovative technologies. LegalQC is dedicated to offering online family law services at affordable rates for everyone",
+    "DESCRIPTION": "LegalQC offers online family law services with affordable rates. Legal services available for online family law are: joint divorce, joint separation for married and unmarried couple, child custody, child support cancellation, homologation assistance service, cohabitation contract. LegalQC's online family law services allow clients to save time and money and to have better access to justice through innovative technologies. LegalQC is dedicated to offering online family law services at affordable rates for everyone",
     
 
     // body
