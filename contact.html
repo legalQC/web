@@ -118,6 +118,8 @@
       <!-- END both Navbars  -->
     
     <!-- LegalQC Contact Form -->
+
+    <!-- iframe src: (removed and place in script translation plug at the end - source: https://www.stevesouders.com/blog/2009/06/03/using-iframes-sparingly/) -->
   
       <iframe
       
@@ -126,8 +128,7 @@
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
       allowfullscreen="true"
-      allow="geolocation; microphone; camera"
-      src="https://form.jotform.com/MeSidiki/legalqc-contact-form?language=fr-CA&dropdown=hidden"
+      allow="geolocation; microphone; camera" 
       frameborder="0"
       style="
       min-width: 100%;
@@ -136,7 +137,8 @@
       scrolling="no">
     </iframe>
    
-    
+    <!-- iframe script from jotform -->
+      
     <script type="text/javascript">
       var ifr = document.getElementById("JotFormIFrame-223407096447257");
       if (ifr) {
@@ -217,6 +219,8 @@
         window.attachEvent("onmessage", handleIFrameMessage);
       }
       </script>
+    <script src="translate/contact-trans.js"></script>
+    
 
     <!-- Form end -->
 
@@ -261,6 +265,7 @@
         </div>
         </div>
       </section>
-      <script src="translate/contact-trans.js"></script>
+
+      
 </body>
 </html>
