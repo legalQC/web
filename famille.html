@@ -238,11 +238,13 @@
 
           <!-- Call to action -->
 
-          <section class="section py-16">
-            <div class="container">
+          <section  class="section py-16">
+            
+            <div id="callAction" class="container">
+              
               <img class="is-absolute" src="acros-assets/images/call-to-action/cta-8-bg.png" alt="">
-              <div class="has-background-primary py-16 px-8" style="border-radius: 6px;">
-                <div class="has-mw-2xl mx-auto has-text-centered is-relative" style="z-index: 1;">
+              <div  class="has-background-primary py-16 px-8" style="border-radius: 6px;">
+                <div  class="has-mw-2xl mx-auto has-text-centered is-relative" style="z-index: 1;">
                   <h1 class="title has-text-white">Droit de la famille en ligne</h1>
                   <p class="mb-10 subtitle has-text-white has-mw-lg mx-auto">Pour commander un de nos services juridiques en ligne en droit de la famille, veuillez cliquer sur le bouton ci-dessous, vous serez redirigé vers l'application web de nos services.</p>
                   <div class="buttons is-centered"><button class="button is-white has-text-grey-darker" onclick="showForm()">Commander un service juridique</button></div>
@@ -256,8 +258,9 @@
         
           
          <!-- LegalQC Family Law Online Form -->
-            
+         
         <div id="myDiv">
+          <div id="loader"></div>
           <iframe
             id="JotFormIFrame-223497824261259"
             title="Family Law Online"
@@ -274,7 +277,7 @@
             border:none;"
             scrolling="no" >
           </iframe>
-        </div>
+        </div> 
           
       
                 
@@ -325,19 +328,33 @@
     <!-- Script Show and hide form -->
 
     <script>
-      var myVar;
+      // var myVar;
 
       function hideForm() {
         document.getElementById("myDiv").style.display = "none";
-        document.getElementById("family").style.display = "block";
+        // document.getElementById("loader").style.display = "none";
         document.getElementById("slider").style.display = "block";
+        document.getElementById("family").style.display = "block";
+        
       
       }
 
+      
+
+      function myLoading() {
+        const loader = document.getElementById("loader");
+        loader.style.display = "block";
+        setTimeout(()=>{loader.style.display="none"}, 17000);
+      }
+
       function showForm() {
+        
         document.getElementById("slider").style.display = "none";
         document.getElementById("family").style.display = "none";
+        myLoading();
         document.getElementById("myDiv").style.display = "block";
+        
+        
       }
   </script>
 
