@@ -55,10 +55,10 @@
                     </div>
                     <div class="dropdown-menu" id="dropdown-menu4" role="menu">
                       <div class="dropdown-content">
-                        <a href="javascript:void();" id="en" class="translate dropdown-item">
+                        <a href="javascript:void();" id="en" onclick="langLoading();" class="translate dropdown-item">
                           English
                         </a>
-                        <a href="javascript:void();" id="fr" class="translate dropdown-item">
+                        <a href="javascript:void();" id="fr" onclick="langLoading();" class="translate dropdown-item">
                           Français
                         </a>
                       </div>
@@ -100,10 +100,10 @@
                 </div>
                 <div class="dropdown-menu" id="dropdown-menu4" role="menu">
                   <div class="dropdown-content">
-                    <a href="#en" id="en" class="translate dropdown-item">
+                    <a href="#en" id="en" onclick="langLoading();" class="translate dropdown-item">
                       English
                     </a>
-                    <a href="#fr" id="fr" class="translate dropdown-item">
+                    <a href="#fr" id="fr" onclick="langLoading();" class="translate dropdown-item">
                       Français
                     </a>
                   </div>
@@ -328,7 +328,18 @@
     <!-- Script Show and hide form -->
 
     <script>
-      // var myVar;
+
+
+      function langLoading(){
+
+        if ($("#myDiv").css("display")== "block"){
+          const loader = document.getElementById("loader");
+          loader.style.display = "block";
+          setTimeout(()=>{loader.style.display="none"}, 17000);
+
+         }
+
+      }
 
       function hideForm() {
         document.getElementById("myDiv").style.display = "none";
