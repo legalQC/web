@@ -18,7 +18,36 @@ var arrLang = {
         // Footer
     "RIGHTS": "Services conçus et mis en oeuvre par ASC Avocat - Tous droits réservés",
 
-   
+    
+    "T1":"SERVICES JURIDIQUES EN" ,
+    "T2":"LIGNE" ,
+    "T3":"Droit de la famille" ,
+    "T4":"Des solutions juridiques en ligne avec l'accompagnement et les conseils d'un avocat." ,
+    "T5":"Comment ça marche" ,
+    "T6":"Divers services sont disponibles exclusivement en ligne avec des tarifs raisonnables." ,
+    "T7":"LégalQC pour des solutions juridiques simples et abordables en ligne" ,
+    "T8":"Membre du Barreau du Québec" ,
+    "T9":"Membre de l'Association du Barreau Canadien" ,
+    "T10":"Services juridiques à la fine pointe de la technologie" ,
+    "T11":"Services en droit de la famille exclusivement en ligne" ,
+    "T12":"Consultation juridique par vidéo conférence ou par téléphone" ,
+    "T13":"Divorce à l'amiable" ,
+    "T14":"Séparation à l'amiable" ,
+    "T15":"Annulation de la pension alimentaire" ,
+    "T16":"Modification de la pension alimentaire" ,
+    "T17":"Contrat de vie commune" ,
+    "T18":"Droit de la famille en ligne" ,
+    "T19":"Pour commander un de nos services juridiques en ligne en droit de la famille, veuillez cliquer sur le bouton ci-dessous, vous serez redirigé vers l'application web de nos services." ,
+    "T20":"Commander un service juridique" ,
+
+
+
+
+
+
+
+
+
 
 
     },
@@ -43,7 +72,29 @@ var arrLang = {
         // Footer
     "RIGHTS": "Services designed and implemented by ASC Lawyer - All rights reserved.",
 
-  
+      
+    "T1": "LEGAL SERVICES" ,
+    "T2": " ONLINE" ,
+    "T3": "Family Law" ,
+    "T4": "Online legal solutions with the accompaniment and advice of a lawyer." ,
+    "T5": "How it works" ,
+    "T6": "Various services are available exclusively online at affordable rates." ,
+    "T7": "LégalQC for simple and affordable legal solutions online" ,
+    "T8": "Member of the Quebec Bar" ,
+    "T9": "Member of the Canadian Bar Association" ,
+    "T10": "Member of the Canadian Bar Association" ,
+    "T11": "Family law services exclusively online" , 
+    "T12": "Legal advice by video conference or telephone",
+    "T13": "Joint divorce" ,
+    "T14": "Joint separation" ,
+    "T15": "Cancellation of child support" ,
+    "T16": "Modification of child support or Alimony" ,
+    "T17": "Cohabitation Contract" ,
+    "T18": "Family Law Online" ,
+    "T19": "To order one of our online family law services, please click on the button below, you will be redirected to the web application of our services." ,
+    "T20": "Order a legal service" ,
+    
+
  
     }
   };
