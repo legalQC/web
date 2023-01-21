@@ -2,10 +2,10 @@ var arrLang = {
     "fr": {
 
     // head
-    "TITLE": "Consultation jurdiques en ligne en droit de la famille",
-    "KEYWORDS": "Consultation jurdique en ligne en droit de la famille, divorce, garde d'enfants, pension alimentaire, separation, contrat de vie commune, service d'aide à l'homologation, annulation de la pension alimentaire",
+    "TITLE": "Consultation jurdique avec un avocat en ligne en droit de la famille",
+    "KEYWORDS": "Consultation jurdique avec un avocat en ligne en droit de la famille, divorce, garde d'enfants, pension alimentaire, separation, contrat de vie commune, service d'aide à l'homologation, annulation de la pension alimentaire",
 
-    "DESCRIPTION": "Consultation juridique en ligne en droit de la famille avec un tarif abordable, vous pouvez facilement et rapidement parler à un avocat pour obtenir le bon conseil juridique au bon moment dans les problèmes relatifs au droit de la famille, tels que le divorce, la garde des enfants, la pension alimentaire, la séparation, le contrat de cohabitation, le service d'aide à l'homologation et l'annulation de la pension alimentaire.",
+    "DESCRIPTION": "Consultation juridique avocat un avocat en ligne en droit de la famille à tarif abordable, vous pouvez facilement et rapidement parler à un avocat pour obtenir le bon conseil juridique au bon moment dans les problèmes relatifs au droit de la famille, tels que le divorce, la garde des enfants, la pension alimentaire, la séparation, le contrat de cohabitation, le service d'aide à l'homologation et l'annulation de la pension alimentaire.",
     
 
     // body
