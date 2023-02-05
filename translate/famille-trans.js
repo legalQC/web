@@ -30,15 +30,30 @@ var arrLang = {
     "T9":"Membre de l'Association du Barreau Canadien" ,
     "T10":"Services juridiques à la fine pointe de la technologie" ,
     "T11":"Services en droit de la famille exclusivement en ligne" ,
-    "T12":"Consultation juridique par vidéo conférence ou par téléphone" ,
-    "T13":"Divorce à l'amiable" ,
-    "T14":"Séparation à l'amiable" ,
-    "T15":"Annulation de la pension alimentaire" ,
-    "T16":"Modification de la pension alimentaire" ,
-    "T17":"Contrat de vie commune" ,
-    "T18":"Droit de la famille en ligne" ,
-    "T19":"Pour commander un de nos services juridiques en ligne en droit de la famille, veuillez cliquer sur le bouton ci-dessous, vous serez redirigé vers l'application web de nos services." ,
-    "T20":"Commander un service juridique" ,
+
+    "DIVORCE-A": "Divorce à l'amiable",
+    "SEPARATION-CNM": "Séparation à l'amiable — Couple non-marié",
+    "SEPARATION-CM": "Séparation à l'amiable — Couple marié",
+    "ANNULATION-PA": "Annulation de la pension alimentaire pour enfants",
+    "SERVICES-SAH": "Service d'aide à l'homologation pour modifier la pension alimentaire, ou la garde des enfants, ou les droits de visite, ou la pension alimentaire concernant un enfant ou un conjoint",
+    "CONTRAT-VC": "Contrat de vie commune",
+
+
+    "DESCRIP1": "Un avocat vous représente et vous accompage pour toute la procédure de divorce du début jusqu'à l'obtention de votre jugement de divorce.",
+    "DESCRIP2": "Un avocat vous représente et vous accompage pour toute la procédure de séparation du début jusqu'à l'obtention de votre jugement de séparation.",
+    "DESCRIP3": "Un avocat vous représente et vous accompage pour toute la procédure de séparation du début jusqu'à l'obtention de votre jugement de séparation.",
+    "DESCRIP4": "Un avocat vous représente et vous accompage pour toute la procédure d'annulation de pension pour enfants du début jusqu'à l'obtention de votre jugement.",
+    "DESCRIP5": "Service d'aide juridique fourni par un avocat privé qui vous représente et vous accompage durant toute la procédure d'homologation pour la modification, ou la garde d'enfants ou des droits de visite etc.",
+    "DESCRIP6": "Un avocat analyse et rédige votre contrat de vie commune selon vos bésoins spécifiques.",
+
+    "TXT1": "Service légal complet",
+    "TXT2": "1 h de consultation incluse",
+    "TXT3": "Frais du tribunal inclus",
+    "TXT4": "Aucun frais caché",
+    "TXT5": "Service 100% en ligne",
+    "TXT6": "Aucun déplacement nécessaire, tout est en ligne",
+    "TXT7": "Commander ce service",
+    "TXT8": "Services fournis par un avocat",
 
 
 
@@ -84,17 +99,32 @@ var arrLang = {
     "T9": "Member of the Canadian Bar Association" ,
     "T10": "Member of the Canadian Bar Association" ,
     "T11": "Family law services exclusively online" , 
-    "T12": "Legal advice by video conference or telephone",
-    "T13": "Joint divorce" ,
-    "T14": "Joint separation" ,
-    "T15": "Cancellation of child support" ,
-    "T16": "Modification of child support or Alimony" ,
-    "T17": "Cohabitation Contract" ,
-    "T18": "Family Law Online" ,
-    "T19": "To order one of our online family law services, please click on the button below, you will be redirected to the web application of our services." ,
-    "T20": "Order a legal service" ,
-    
 
+
+    "DIVORCE-A": "Joint Divorce",
+    "SEPARATION-CNM": "Joint Separation — Non-Married Couple",
+    "SEPARATION-CM": "Joint Separation — Married Couple",
+    "ANNULATION-PA": "Cancellation of child support",
+    "SERVICES-SAH": "Homologation Assistance Service to modify child support, or child custody,   or visitation, or spousal support",
+    "CONTRAT-VC": "Cohabitaion Contract",
+   
+    "DESCRIP1": "An attorney will represent you and accompany you through the entire divorce process from the beginning until you obtain your divorce judgment.",
+    "DESCRIP2": "A lawyer represents you and accompanies you for the whole procedure of separation from the beginning until obtaining your judgment of separation.",
+    "DESCRIP3": "A lawyer represents you and accompanies you for the whole separation procedure from the beginning until you obtain your separation judgment.",
+    "DESCRIP4": "A lawyer will represent you and accompany you for the entire child support cancellation procedure from the beginning until you obtain your judgment.",
+    "DESCRIP5": "Legal aid service provided by a private attorney who represents and accompanies you throughout the homologation process for modification of child support, or child custody or visitation rights etc.",
+    "DESCRIP6": "An attorney analyzes and drafts your cohabitation agreement based on your specific needs.",
+    
+    "TXT1": "Full legal service",
+    "TXT2": "1 hour consultation included",
+    "TXT3": "Court fees included",
+    "TXT4": "No hidden fees",
+    "TXT5": "100% online service",
+    "TXT6": "No trip required, everything is online",
+    "TXT7": "Order this service",
+    "TXT8": "Services provided by a lawyer",
+    
+   
  
     }
   };
@@ -103,9 +133,9 @@ var arrLang = {
  
 // Function to choose iframe based on language
 
-function go(url){
-  document.getElementById('JotFormIFrame-223497824261259').src= url;
-}
+// function go(url){
+//   document.getElementById('JotFormIFrame-223497824261259').src= url;
+// }
  
 // The default language is English
 var lang = "fr";
@@ -120,12 +150,12 @@ if(usrLang) {
 }
 
 // handling request for appropriate form based on user language
-if (lang=== "fr"){
-  go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
+// if (lang=== "fr"){
+//   go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
 
-} else if (lang=== "en"){
-  go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
-}  
+// } else if (lang=== "en"){
+//   go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
+// }  
 
 // end of handling above request
 
@@ -144,12 +174,12 @@ console.log(lang);
      var lang = $(this).attr("id");
 
     //  // handling request for proposal form based on selected language
-    if (lang=== "fr"){
-      go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
+    // if (lang=== "fr"){
+    //   go('https://form.jotform.com/MeSidiki/family-law-online?language=fr-CA&dropdown=hidden') ;
     
-    } else if (lang=== "en"){
-      go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
-    }  
+    // } else if (lang=== "en"){
+    //   go('https://form.jotform.com/MeSidiki/family-law-online?language=en-CA&dropdown=hidden') ;
+    // }  
       // end here - handling selected language
      
 
